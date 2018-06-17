@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 <h1>Agreements</h1>
-<% @agreements.each do |agreement| %>        <% end %>
+<% @agreements.each do |agreement| %>        
 <table>
    <thead>
       <tr>
@@ -22,4 +22,5 @@
       </tr>
    </tbody>
 </table>
+<% end %>
 <%= link_to 'New Agreement', new_agreement_path %>

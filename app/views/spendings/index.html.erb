@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 <h1>Spendings</h1>
-<% @spendings.each do |spending| %>      <% end %>
+<% @spendings.each do |spending| %>      
 <table>
    <thead>
       <tr>
@@ -19,5 +19,6 @@
       </tr>
    </tbody>
 </table>
+<% end %>
 <%= link_to 'New Spending', new_spending_path %> <%= link_to 'Export To Graph', spending_export_path, target: "_blank"%>
 <strong style="font-size: 14px;">*Note que incluímos o link para dar o export das spendings.</strong>
